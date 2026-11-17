@@ -1,0 +1,25 @@
+@media (min-width: 768px){
+    .header nav a {
+        display: inline;
+    }
+
+    .header nav .mobile-menu {
+        display: none;
+    }
+
+    section#hero {
+        flex-direction: row;
+    }
+
+    section#hero img{
+        height: 500px;
+    }
+
+    section#hero h2{
+        font-size: 80px;
+    }
+
+    section#hero .hero-actions{
+        flex-direction: row;
+    }
+}
